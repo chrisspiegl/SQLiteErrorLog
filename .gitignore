@@ -1,0 +1,5 @@
+.DS_Store
+*.sublime-*
+config.php
+/data/log/*
+/data/db.sqlite
