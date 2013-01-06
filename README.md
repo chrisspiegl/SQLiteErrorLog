@@ -14,12 +14,26 @@ Create a copy of 'config.example.php' called 'config.php' I guess it is pretty s
 
 Now you have to add some lines to the .htaccess file. The simplest is to use the generator included in the script.
 
-Simply go to http://YOURDOMAIN.TLD/error/index.php?htaccess=%ADD THE LOCATION% te parameter %ADD THE LOCATION% should probably look something like this: /error/ If you visit that site, you will get the lienes to add to your .htaccess manually.
+Simply go to http://YOURDOMAIN.TLD/error/index.php?htaccess=%ADD_THE_LOCATION% te parameter %ADD_THE_LOCATION% should probably look something like this: /error/ If you visit that site, you will get the lienes to add to your .htaccess manually.
 
-The following folders have to be writable by the http-server running user (probably chmod 755 or 775).
+The following folder has to be writable by the http-server running user (probably chmod 755 or 775).
 
 * /data/
-* /data/
+
+Roadmap
+===
+
+## Planed
+* Admin Interface (Log analyzer)
+
+## v0.1.1-beta 2013-01-06
+* Updated the README.md with the roadmap and 
+
+## v0.1-beta 2013-01-06
+Basic functionality so far included
+
+* Log calls to text file
+* Show error message
 
 Inspired by
 ===
