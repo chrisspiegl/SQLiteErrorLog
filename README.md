@@ -1,6 +1,14 @@
 SQLiteErrorLog
 ===
 
+![current status](https://img.shields.io/badge/current%20status-halted-red?style=flat-square)
+
+## Halted Project
+
+I lost motivation to work on this for now. The code is here if you want to take a look.
+
+## About
+
 This is a simple http error logger written in PHP and used to log errors in a text file to be tracked by an administrator to see if he can resolve errors that ocured.
 
 Currently this is in bare beta! And I do not recomend anybody to use this.
